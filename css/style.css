@@ -6,14 +6,47 @@ class = clase, varios usos
 h1 { color: purple}
 
 */
-header img{ width: 10rem;}
-h1 { color: purple; font-family: Arial, Helvetica, sans-serif;text-align: center}
-h3 { color: purple; font-family: Arial, Helvetica, sans-serif;text-align:left}
+header img {
+    width: 10rem;
+}
 
-body { background-color:#E8D9D9 
-    ;}  
-header ul li a{ color:black; text-decoration: none; font-family: Arial, Helvetica, sans-serif ; align-items: center; margin: 15px;  }
-header ul { list-style-type: none;display: flex;align-items: center; }
+h1 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+
+h3 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left
+}
+
+body {
+    background-color: #E8D9D9;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: 15px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) { 
+    nav{
+        display: none;
+    }
+
+}
+
 
 
 
